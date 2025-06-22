@@ -509,3 +509,19 @@ body {
     width: 100%;
   }
 }
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.box {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+  overflow: scroll;         
+}
+.list {
+  overflow: auto; /* Allows scrolling when needed */
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
